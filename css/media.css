@@ -1,0 +1,416 @@
+@media (max-width: 1320px) {
+  .header__content-item-title {
+    margin-right: 20px;
+  }
+
+  .header__content-list {
+    margin-right: 20px;
+  }
+
+  .header__logo-text {
+    border: none;
+  }
+
+  .header__label {
+    display: flex;
+  }
+
+  .header__label {
+    flex-direction: column;
+  }
+
+  .header__label-subtext {
+    font-family: 'Roboto';
+    display: flex;
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0;
+  }
+
+  .header__logo-text {
+    padding: 2px 0 4px 0;
+  }
+
+  .contact-us__link {
+    margin-bottom: 20px;
+  }
+
+  .contact-us__inner {
+    padding: 16px 0 30px 0;
+  }
+}
+
+@media (max-width: 1267px) {
+  .contact-information-banks__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1135px) {
+  .write-us__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .write-us__content {
+    max-width: 100%;
+  }
+
+  .write-us__form {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header__inner {
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    border: none;
+  }
+
+  .header__content {
+    flex-direction: column;
+  }
+
+  .header__content-list {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .header__search {
+    width: 100%;
+  }
+
+  .form__search-input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact-information-banks__list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-information-banks__item {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .contact-us {
+    background-image: url(/img/bg-contact-us-small.png);
+  }
+
+  .contact-us__link {
+    display: none;
+  }
+
+  .contact-us__inner {
+    padding: 20px 0 10px 0;
+  }
+
+  .contact-us__main-text {
+    width: 100%;
+  }
+
+  .contact-us__main-text p {
+    margin-bottom: 10px;
+  }
+
+  .contact-us__main-text:last-child {
+    margin-bottom: 0;
+  }
+
+  .contact-us__main-title::after {
+    top: 7px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 30px;
+  }
+
+  .popup {
+    padding: 30px 17px;
+  }
+
+  .popup__close-btn {
+    right: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .form {
+    width: 680px;
+  }
+}
+
+@media (max-width: 730px) {
+  .form {
+    width: 100%;
+  }
+
+  .write-us__form {
+    width: 100%;
+  }
+
+  .form__control {
+    flex-direction: column;
+  }
+
+  .form__control-label {
+    margin-bottom: 10px;
+  }
+
+  .form__control-submit-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form__control-submit-block {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .header__content-list {
+    display: none;
+  }
+
+  .header__content-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #009ee8;
+    background-color: #005898;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+
+  .header__content-btn div {
+    width: 16px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 2px 0;
+  }
+
+  .header__label-subtext {
+    display: none;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #009ee8;
+    background-color: #009ee8;
+    cursor: pointer;
+  }
+
+  .header__content {
+    flex-direction: row;
+  }
+
+  .header__logo-text {
+    padding: 0 0 4px 0;
+  }
+
+  .write-us__title {
+    text-align: center;
+  }
+
+  .contact-us {
+    background-image: url(/img/bg-contact-us.png);
+  }
+
+  .contact-us__main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us__main {
+    margin-right: 0;
+  }
+
+  .contact-us__main-title {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .contact-us__main-title::after {
+    top: 99%;
+    left: 57%;
+    transform: rotate(90deg);
+  }
+
+  .contact-us__main-text {
+    padding: 15px 0;
+  }
+
+  .contact-us__main-text p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 691px) {
+  .divide-logo {
+    display: block;
+  }
+
+  .footer__link-wrapper {
+    display: none;
+  }
+
+  .footer__inner-logo {
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .logo-footer-small {
+    display: block;
+  }
+
+  .logo-footer-large {
+    display: none;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+  }
+
+  .copyright-link-wrapper {
+    display: block;
+    padding: 20px 0 30px 0;
+  }
+
+  .footer__link-list {
+    justify-content: center;
+  }
+
+  .footer__copyright-text {
+    order: 2;
+    text-align: center;
+  }
+
+  .footer__copyright-social {
+    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .social-label {
+    margin-right: 0;
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-information-banks__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 510px) {
+  .contact-us__main-title::after {
+    left: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .mailing-address__inner {
+    flex-direction: column;
+  }
+
+  .mailing-address__icon-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .mailing-address__content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  body {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contact-us__main-title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact-us__main-title::after {
+    left: 63%;
+  }
+
+  .write-us__title,
+  .mailing-address__content-title,
+  .contact-information-banks__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .logo-small {
+    display: block;
+  }
+
+  .logo-large {
+    display: none;
+  }
+
+  .header__content-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .header__search-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .write-us__content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .contact-us__main-title::after {
+    left: 64%;
+  }
+}
+
+@media (max-width: 370px) {
+  .contact-us__main-title::after {
+    left: 65%;
+  }
+}
+
+@media (max-width: 340px) {
+  .contact-us__main-title::after {
+    left: 66%;
+  }
+}
