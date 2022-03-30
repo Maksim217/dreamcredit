@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Dreamcredit</title>
+  </head>
+  <body> 
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__label">
+            <div class="header__logo">
+              <a class="logo-link logo-large" href="#">
+                <img src="img/logo-header.svg" alt="" />
+              </a>
+              <a class="logo-link logo-small" href="#">
+                <img src="img/logo-header-small.svg" alt="" />
+              </a>
+            </div>
+            <div class="header__label-subtext">
+              <p>Find the best</p>
+              <p>credit card offers online</p>
+            </div>
+          </div>
+          <div class="header__content">
+            <nav class="header__content-list">
+              <li class="header__content-item-title header__content-item-drop">
+                PREPAID & CREDIT OFFERS
+              </li>
+              <li class="header__content-item-title header__content-item-drop">
+                RESOURCES
+              </li>
+            </nav>
+            <div class="header__content-btn">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="header__search">
+              <form class="form__search" action="/">
+                <div class="form-wrap">
+                  <input class="form__search-input" type="text" />
+                  <button class="form__search-btn" type="submit">
+                    <img src="img/search.svg" alt="" />
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="header__search-btn">
+              <img src="img/search.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="contact-us margin-bottom">
+      <div class="container">
+        <div class="contact-us__inner">
+          <div class="contact-us__link">
+            <ul class="link-list">
+              <li class="link-item">
+                <a href="#">Best credit offers</a>
+              </li>
+              <li class="link-item">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-us__main">
+            <h1 class="contact-us__main-title">CONTACT US</h1>
+            <div class="contact-us__main-text">
+              <p>
+                We welcome your comments, questions, or any request you may
+                have! If you would like to contact our staff, please complete
+                the form below.
+              </p>
+              <p>We will respond to your inquiries ASAP!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="write-us margin-bottom">
+      <div class="container">
+        <h2 class="write-us__title">WRITE US</h2>
+        <div class="write-us__inner">
+          <div class="write-us__form">
+            <form class="form" id="write-us-form" action="/">
+              <div class="form__control">
+                <label class="form__control-label" for="subject"
+                  >Subject<span class="required">*</span>:</label
+                >
+                <div class="custom-select-block">
+                  <div class="custom-select">
+                    <div class="custom-select__header js-custom-select">
+                      <span
+                        class="form__control-select"
+                        id="li-selected"
+                        data-required="1"
+                        data-default-value="Select Subject"
+                        >Select Subject</span
+                      >
+                    </div>
+                    <div class="custom-select__btn js-custom-select"></div>
+                    <ul class="custom-select__results custom-scrollbar">
+                      <li class="option" data-option-id="Choosing Credit Card">
+                        Choosing Credit Card
+                      </li>
+                      <li
+                        class="option"
+                        data-option-id="Credit Card Application Problems"
+                      >
+                        Credit Card Application Problems
+                      </li>
+                      <li
+                        class="option"
+                        data-option-id="Earning and Redeeming Rewards"
+                      >
+                        Earning and Redeeming Rewards
+                      </li>
+                      <li
+                        class="option"
+                        data-option-id="Building Credit with Credit Card"
+                      >
+                        Building Credit with Credit Card
+                      </li>
+                      <li
+                        class="option"
+                        data-option-id="Balance Transfer Issues"
+                      >
+                        Balance Transfer Issues
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="email"
+                  >E-mail<span class="required">*</span>:</label
+                >
+                <input
+                  class="form__control-input"
+                  id="email"
+                  name="email"
+                  data-required="1"
+                  type="email"
+                />
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="name"
+                  >Name<span class="required">*</span>:</label
+                >
+                <input
+                  class="form__control-input"
+                  id="name"
+                  name="name"
+                  data-required="1"
+                  type="text"
+                />
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="phone"
+                  >Phone number:</label
+                >
+                <input
+                  class="form__control-input"
+                  id="phone"
+                  name="phone"
+                  data-required="0"
+                  type="tel"
+                  pattern="1-[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                />
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="question"
+                  >Question<span class="required">*</span>:</label
+                >
+                <textarea
+                  class="form__control-textarea"
+                  id="question"
+                  data-required="1"
+                  name="question"
+                ></textarea>
+              </div>
+              <div class="form__control form__control-submit-block">
+                <p class="required">* required fields</p>
+                <button class="form__control-btn" id="write-us-submit-btn">
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="write-us__content">
+            <p class="write-us__content-text">
+              All information submitted on this form will remain completely
+              confidential. We <b>DO NOT sell</b> names or email addresses to
+              third parties.
+            </p>
+            <p class="write-us__content-text">
+              Please review our privacy policy for further information.
+            </p>
+            <p class="write-us__content-text">
+              Please note:<br />
+              We <b>DO NOT issue credit cards</b> or have any type of personal
+              credit card account information. If you have questions pertaining
+              to an existing credit card account, please contact the bank that
+              issued the credit card directly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mailing-address margin-bottom">
+      <div class="container">
+        <div class="mailing-address__inner">
+          <div class="mailing-address__icon-wrapper">
+            <img class="email-icon" src="img/email-icon.svg" alt="" />
+          </div>
+          <div class="mailing-address__content">
+            <h3 class="mailing-address__content-title">MAILING ADDRESS:</h3>
+            <p class="mailing-address__content-text">
+              1680 South Ashland Ave Suit# 3007<br />
+              Chicago, IL 60608-2013
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-information-banks margin-bottom">
+      <div class="container">
+        <h2 class="contact-information-banks__title">
+          CONTACT INFORMATION OF BANKS:
+        </h2>
+        <ul class="contact-information-banks__list">
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/bofi.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">BOFI:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/capital-one.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">CAPITAL ONE®:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/capital-bank.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">CAPITAL BANK:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/credit-one-bank.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">CREDIT ONE BANK®:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/metabank.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">METABANK:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/mid-america-bank.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">MID AMERICA BANK:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/simmons-first.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">SIMMONS FIRST:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contact-information-banks__item">
+            <div class="item-label-wrapper">
+              <div class="item-label-container">
+                <img src="img/usaa.png" alt="" />
+              </div>
+            </div>
+            <div class="item-content-wrapper">
+              <div class="item-content">
+                <div class="item-content__title">USAA:</div>
+                <p class="item-content__text">
+                  Customer Service: <br />
+                  <b>800-955-7070</b>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner-logo">
+          <div class="footer__logo">
+            <a class="logo-link logo-footer-large" href="#">
+              <img src="img/logo-footer.svg" alt="" />
+            </a>
+            <a class="logo-link logo-footer-small" href="#">
+              <img src="img/logo-footer-small.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer__link-wrapper">
+            <ul class="footer__link-list">
+              <li class="footer__link-item">
+                <a class="company-link" href="#">About Us</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Contact Us</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Privacy</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Sitemap</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="divide divide-logo"></div>
+
+      <div class="container">
+        <div class="footer__copyright">
+          <div class="footer__link-wrapper copyright-link-wrapper">
+            <ul class="footer__link-list">
+              <li class="footer__link-item">
+                <a class="company-link" href="#">About Us</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Contact Us</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Privacy</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footer__link-item">
+                <a class="company-link" href="#">Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <p class="footer__copyright-text">
+            Copyright © 2015 DreamCreditMaker.com.<br />
+            All Rights Reserved.
+          </p>
+          <div class="footer__copyright-social">
+            <label class="social-label">FOLLOW US:</label>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#">
+                  <img src="img/f.svg" alt="" />
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#">
+                  <img src="img/tw.svg" alt="" />
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#">
+                  <img src="img/g.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="divide"></div>
+      <div class="container padding-bottom">
+        <div class="footer__content">
+          <p class="footer__content-text">
+            *See the credit card's terms and conditions on the online
+            application page. Note that this website may be compensated by
+            credit card issuers when the visitor applies for a card through the
+            links on this website. We do our best to maintain all information
+            accurate and up to date. However, we do not warrant the credit card
+            information won't change. Click the "Apply Online" button and review
+            the current info on the secure credit card terms page.
+          </p>
+
+          <p class="footer__content-text">
+            Information in these articles is brought to you by
+            DreamCreditMaker.com. Banks, issuers, and credit card companies
+            mentioned in the articles do not endorse or guarantee, and are not
+            responsible for, the contents of the articles.
+          </p>
+
+          <p class="footer__content-text">
+            * The DreamCreditMaker.com webpage is a free service and an
+            information resource for credit cards and financial products and
+            services available to eligible United States consumers.
+            DreamCreditMaker.com does not offer any warranties and is not a
+            direct service. There are no guarantees for approval or offers when
+            applying for a credit card. Please refer to the application if you
+            would like more information on each credit card. When you click
+            "Apply" for a particular credit card, please take the time to review
+            the terms and conditions of the product/service at the issuer's
+            website. All logos on the DreamCreditMaker.com website are property
+            of their respective owners.
+          </p>
+
+          <p class="footer__content-text">
+            This website may be compensated by the credit card issuers when
+            people apply for a credit card using the links on this website. We
+            strive to maintain the information accurate on the website. However,
+            the credit card information is subject to change. Therefore, we
+            recommend you to click the "Apply Now" button to review the up to
+            date credit card's terms and conditions.
+          </p>
+
+          <p class="footer__content-text">
+            DreamCreditMaker.com is an independent, advertising-supported web
+            site. The offers that appear on our site are from credit card
+            issuers and companies from which DreamCreditMaker.com receives
+            compensation. This compensation may impact how and where credit
+            products appear on our site, including, for example, the order in
+            which they may appear within listings on separate pages of our web
+            site. DreamCreditMaker.com does not present or review all available
+            credit products.
+          </p>
+
+          <p class="footer__content-text">
+            Please note that DreamCreditMaker.com has financial relationships
+            with some of the merchants mentioned here. DreamCreditMaker.com may
+            be compensated if consumers choose to utilize the links located
+            throught the content on this site and generate sales for the said
+            merchant.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop">
+      <div class="popup">
+        <button class="popup__close-btn" type="button">
+          <img src="img/close-icon-popup.svg" alt="" />
+        </button>
+        <div class="popup__title">Thanks for your question!</div>
+        <div class="popup__text">
+          Our experts will reply you by email as soon as possible.
+        </div>
+      </div>
+    </div>
+
+    <div class="preload" id="preloader">
+      <svg
+        class="preload__preloader"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.0"
+        width="64px"
+        height="64px"
+        viewBox="0 0 128 128"
+        xml:space="preserve"
+      >
+        <g>
+          <path
+            d="M64 9.75A54.25 54.25 0 0 0 9.75 64H0a64 64 0 0 1 128 0h-9.75A54.25 54.25 0 0 0 64 9.75z"
+          ></path>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 64 64"
+            to="360 64 64"
+            dur="1000ms"
+            repeatCount="indefinite"
+          ></animateTransform>
+        </g>
+      </svg>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/mask.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
