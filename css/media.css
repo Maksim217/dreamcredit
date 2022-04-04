@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 1040px) {
+  .container {
+    padding: 0 25px 0 22px;
+  }
+
   .header__inner {
     align-items: flex-start;
   }
