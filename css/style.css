@@ -28,11 +28,13 @@ a {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 40px;
 }
 
 .header {
-  margin: 28px 0 27px 0;
+  margin: 25px 0;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .header__inner {
@@ -61,7 +63,7 @@ a {
 .header__logo {
   display: flex;
   align-items: center;
-  padding: 5px 15px 5px 0;
+  padding-right: 15px;
   border-right: 1px solid var(--complementary-color);
 }
 
@@ -279,8 +281,6 @@ a {
 }
 
 .custom-select-block {
-  max-height: 32px;
-  height: 32px;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -288,6 +288,8 @@ a {
   position: relative;
   margin-bottom: 20px;
   color: var(--primary-color-light);
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .custom-select-block select {
@@ -354,7 +356,7 @@ a {
   top: 100%;
   left: -1px;
   right: 0;
-  width: 100%;
+  width: 556px;
   max-height: 241px;
   height: auto;
   display: none;
@@ -368,7 +370,7 @@ a {
 
 .custom-select__results li {
   color: var(--primary-color-dark);
-  padding: 7px 10px;
+  padding: 11px 10px;
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
@@ -421,7 +423,10 @@ a {
 }
 
 .form__control-label {
+  display: flex;
+  align-items: center;
   min-width: 150px;
+  max-height: 32px;
 }
 
 .form__control-option {
@@ -457,10 +462,11 @@ a {
 }
 
 .form__control-btn {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
   padding: 16px 57px;
   border: none;
-  font: inherit;
-  color: inherit;
   background-color: transparent;
   cursor: pointer;
   background: var(--complementary-color);
@@ -521,9 +527,6 @@ a {
 }
 
 .contact-information-banks__list {
-  /* display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -604,7 +607,7 @@ a {
 .footer__inner-logo {
   display: flex;
   justify-content: space-between;
-  padding: 28px 0 25px 0;
+  padding: 28px 0 15px 0;
 }
 
 .footer__logo {
@@ -701,6 +704,8 @@ a {
 
 .required {
   color: #ef5c53;
+  font-size: 16px;
+  line-height: 18.4px;
 }
 
 .required-control {
@@ -781,7 +786,7 @@ a {
 .popup {
   position: relative;
   max-width: 510px;
-  padding: 38px 34px;
+  padding: 38px 34px 38px 33px;
   background: #fff3c4;
   max-height: 142px;
 }
@@ -802,7 +807,7 @@ a {
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 21px;
 }
 
