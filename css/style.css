@@ -109,7 +109,7 @@ a {
 .header__content-item-drop::after {
   content: url(/img/direction-black.svg);
   position: absolute;
-  top: -3px;
+  top: -2px;
   right: 0;
   width: 12px;
   height: 8px;
@@ -391,6 +391,8 @@ a {
   height: 32px;
   background: var(--complementary-color);
   margin-right: -1px;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
 .custom-select__btn::after {
@@ -665,6 +667,7 @@ a {
 
 .footer__copyright-social {
   display: flex;
+  align-items: center;
 }
 
 .social-label {
