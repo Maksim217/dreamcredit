@@ -167,7 +167,7 @@
   .custom-select__btn {
     height: 33px;
     margin-top: -1px;
-    margin-right: 0;
+    margin-right: -1px;
   }
 
   .write-us__content {
@@ -232,8 +232,12 @@
 }
 
 @media (max-width: 710px) {
+  .header__logo {
+    padding-right: 0;
+  }
+
   .header__content {
-    min-width: 90px;
+    min-width: 96px;
   }
 
   .header__content-list {
@@ -254,7 +258,7 @@
 
   .header__content-btn div {
     width: 18px;
-    height: 2.1px;
+    height: 2.2px;
     background-color: #ffffff;
     margin: 1.7px 0;
   }
