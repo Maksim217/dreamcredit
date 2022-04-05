@@ -128,6 +128,10 @@
     line-height: 16px;
   }
 
+  .header__content-item-drop::after {
+    top: 0px;
+  }
+
   .contact-us {
     background-image: url(/img/bg-contact-us-small.png);
   }
@@ -247,17 +251,16 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    border: 1px solid #009ee8;
     background-color: #005898;
     cursor: pointer;
     margin-right: 16px;
   }
 
   .header__content-btn div {
-    width: 16px;
-    height: 2px;
+    width: 18px;
+    height: 2.1px;
     background-color: #ffffff;
-    margin: 2px 0;
+    margin: 1.7px 0;
   }
 
   .header__label-subtext {
@@ -457,13 +460,13 @@
   }
 
   .header__content-btn {
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
   }
 
   .header__search-btn {
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
   }
 
   .write-us__content {
@@ -545,21 +548,21 @@
   }
 
   .item-label-container {
-      width: 70px;
-      height: 70px;
-      background-size: 70px;
+    width: 70px;
+    height: 70px;
+    background-size: 70px;
   }
 
   .item-label-container img {
-      width: 66px;
-      height: 68px;
+    width: 66px;
+    height: 68px;
   }
 
   .footer__copyright-text {
     font-size: 12px;
     line-height: 14px;
   }
-  
+
   .footer__content {
     font-size: 12px;
     line-height: 14px;
