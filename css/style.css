@@ -256,7 +256,6 @@ a {
 
 .form {
   width: 706px;
-  margin-bottom: 60px;
 }
 
 .form__control {
@@ -479,7 +478,7 @@ a {
   max-width: 596px;
 }
 
-.write-us__content-text {
+.write-us__content-text:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -523,7 +522,6 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 60px;
 }
 
 .contact-information-banks__list {
@@ -533,7 +531,6 @@ a {
 
 .contact-information-banks__item {
   display: flex;
-  margin-bottom: 60px;
   width: 305px;
 }
 
@@ -573,7 +570,7 @@ a {
 
 .item-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   position: relative;
   padding: 0 0 0 10px;
@@ -736,7 +733,7 @@ a {
 }
 
 .preload {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 10000;
   width: 0;
@@ -744,12 +741,11 @@ a {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.7);
-  opacity: 0;
   transition: opacity 0.2s 0s, width 0s 0.2s;
 }
 
 .preload--active {
-  opacity: 1;
+  display: block;
   width: 100%;
   transition: opacity 0.2s 0s, width 0s 0s;
 }
