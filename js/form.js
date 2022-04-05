@@ -39,6 +39,7 @@ class Form {
     this.preload = document.querySelector(`.preload`);
     this.backdrop = document.querySelector(`.backdrop`);
     this.elOptions = document.querySelectorAll(`.option`);
+    this.emailEl = document.querySelector(`#email`);
   }
 
   /**
@@ -138,7 +139,23 @@ class Form {
       isValid = false;
     }
 
+    if(!this.validateEmailInput()) {
+      this.emailEl.classList.add(this.requiredClass);
+      isValid = false;
+    }
+
     return isValid;
+  }
+
+  /**
+   * Метод валидации поля ввода для email
+   *
+   */
+  validateEmailInput() {
+    const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
+    const value = this.emailEl.value.trim();
+
+    return EMAIL_REGEXP.test(value);
   }
 
   /**
